@@ -2,14 +2,20 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+  所有文章: /archives
+  技和术: /categories/technology
+  生和活: /categories/life
+  诗和意: /categories/poetry
+#  随笔: /tags/随笔/
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/iHTCboy"
+  weibo: "http://weibo.com/iHTCapp"
+#  jianshu: "http://www.jianshu.com/users/893e02c03bbc"
+  mail: "mailto:ihetiancong@gmail.com"
+  rss: "http://iHTCboy.github.io/atom.xml"
+  #zhihu: "#"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
@@ -35,9 +41,9 @@ root: /
 # 文章太长，截断按钮文字
 excerpt_link: more
 # 文章卡片右下角常驻链接，不需要请设置为false
-show_all_link: '展开全文'
+show_all_link: '显示全文'
 # 数学公式
-mathjax: false
+mathjax: true
 # 是否在新窗口打开链接
 open_in_new: false
 
@@ -45,15 +51,16 @@ open_in_new: false
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 2
 # 打赏wording
-reward_wording: '谢谢你请我吃糖果'
+reward_wording: '如果喜欢本文，欢迎分享点赞，用心打赏鼓励，创新创优创造！'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 
+alipay: /img/alipay.jpg
 # 微信二维码图片地址
-weixin: 
+weixin: /img/weixinpay.jpg
+
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
-toc: 1
+toc: 2
 # 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
 toc_hide_index: true
 # 目录为空时的提示
@@ -63,12 +70,12 @@ toc_empty_wording: '目录，不存在的…'
 top: true
 
 # Miscellaneous
-baidu_analytics: ''
-google_analytics: ''
-favicon: /favicon.png
+baidu_analytics: 'ef99ceefeec7e2e9a2ea262298cca011'
+google_analytics: 'UA-67136970-1'
+favicon: /img/favicon.png
 
 #你的头像url
-avatar:
+avatar: https://avatars2.githubusercontent.com/u/11418363?v=3&amp;s=460
 
 #是否开启分享
 share_jia: true
@@ -84,8 +91,8 @@ duoshuo: false
 wangyiyun: false
 
 #3、畅言
-changyan_appid: false
-changyan_conf: false
+changyan_appid: 'cytu3vPiW'
+changyan_conf: 'prod_5348e762f7a9ee897f4acf2f5c140daf'
 
 #4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
 disqus: false
@@ -102,7 +109,7 @@ style:
   # 头像上面的背景颜色
   header: '#4d4d4d'
   # 右滑板块背景
-  slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
+  slider: 'linear-gradient(200deg,#e0eff0,#103e56)'
 
 # slider的设置
 slider:
@@ -116,15 +123,20 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
-  aboutme: '关于我'
+  friends: '友好链接'
+  aboutme: '关于博客'
 
 friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+  Apple Developer: https://developer.apple.com
+  Github: https://github.com
+  objc.io: https://www.objc.io
+  objc中国: http://objcio.cn
+  NSHipster: http://nshipster.com
+  NSHipster中文版: http://nshipster.cn
+  Ray Wenderlich: https://www.raywenderlich.com
+  Swift.org: https://swift.org
+  We ❤ Swift: http://www.weheartswift.com
+  SwiftDoc.org: http://swiftdoc.org
+  Swifter.tips: http://swifter.tips
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: iHTCboy <br> 破得迷，了得知，方能学海无边；<br> 热爱移动开发，目前致力于移动全栈开发；<br><br> 一花一世界，一木一浮生，<br> 一草一天堂，一叶一如来，<br> 一砂一极乐，一方一净土，<br> 一笑一尘缘，一念一清静
