@@ -23,5 +23,10 @@
     <%- partial('_partial/tools') %>
     <%- partial('_partial/viewer') %>
   </div>
+  <script type="text/javascript">
+    var host = "ihtcboy.com";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https:";
+</script>
 </body>
 </html>
