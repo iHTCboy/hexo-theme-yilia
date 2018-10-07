@@ -4,6 +4,7 @@ menu:
   主页: /
   所有文章: /archives
   技和术: /categories/technology
+  总和结: /categories/induction
   生和活: /categories/life
   诗和意: /categories/poetry
 #  随笔: /tags/随笔/
@@ -49,7 +50,7 @@ open_in_new: false
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 1
 # 打赏wording
-reward_wording: '如果喜欢，欢迎分享点赞，扫一扫鼓励，用心创新创优创造！'
+reward_wording: '如果喜欢，欢迎分享点赞，扫一扫鼓励，用心创造创新！'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
 alipay: /img/alipay.jpg
 # 微信二维码图片地址
@@ -139,4 +140,4 @@ friends:
   SwiftDoc.org: http://swiftdoc.org
   Swifter.tips: http://swifter.tips
 
-aboutme: iHTCboy <br> 破得迷，了得知，方能学海无边；<br> 热爱移动开发，目前致力于移动全栈开发；<br><br> 一花一世界，一木一浮生，<br> 一草一天堂，一叶一如来，<br> 一砂一极乐，一方一净土，<br> 一笑一尘缘，一念一清静
+aboutme: iHTCboy <br> 破得迷，了得知，方能学海无边；<br> 热爱移动开发，目前致力研究移动全栈<br><br> 一花一世界，一木一浮生，<br> 一草一天堂，一叶一如来，<br> 一砂一极乐，一方一净土，<br> 一笑一尘缘，一念一清静
