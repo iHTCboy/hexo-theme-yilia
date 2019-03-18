@@ -103,7 +103,7 @@ gitment_owner: iHTCboy #11418363      #你的 GitHub ID
 gitment_repo: 'iHTCboy.github.io'          #存储评论的 repo
 gitment_oauth:
   client_id: 'ba571dc501cf1963fff8'           #client ID
-  client_secret: 'bd6b761ad6da7910ec60694118765f7b6c28f4e4'       #client secret
+  client_secret: '9340cd4031280da2640c0c983d359d08aad3c385'       #client secret
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
