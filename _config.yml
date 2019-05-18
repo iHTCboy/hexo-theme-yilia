@@ -1,8 +1,8 @@
 # Header
 
 menu:
-  主页: /
-  所有文章: /archives
+  首页: /
+  归和档: /archives
   技和术: /categories/technology
   总和结: /categories/induction
   生和活: /categories/life
@@ -110,7 +110,7 @@ style:
   # 头像上面的背景颜色
   header: '#4d4d4d'
   # 右滑板块背景
-  slider: 'linear-gradient(200deg,#e0eff0,#103e56)'
+  slider: 'linear-gradient(200deg, #6db6bb, #103e56)'
 
 # slider的设置
 slider:
@@ -123,13 +123,13 @@ slider:
 #smart_menu:
 #  friends: false
 smart_menu:
-  innerArchive: '所有文章'
-  friends: '友好链接'
-  aboutme: '关于博客'
+  innerArchive: '搜索'
+  friends: '友链'
+  aboutme: '关于'
 
 friends:
   Apple Developer: https://developer.apple.com
-  Github: https://github.com
+  Android Developers: https://developer.android.com
   objc.io: https://www.objc.io
   objc中国: https://www.objccn.io
   NSHipster: http://nshipster.com
@@ -139,5 +139,8 @@ friends:
   We ❤ Swift: https://www.weheartswift.com
   SwiftDoc.org: http://swiftdoc.org
   Swifter.tips: http://swifter.tips
+  宇宙湾: https://yuzhouwan.com
 
-aboutme: iHTCboy <br> 破得迷，了得知，方能学海无边；<br> 热爱移动开发，目前致力研究移动全栈<br><br> 一花一世界，一木一浮生，<br> 一草一天堂，一叶一如来，<br> 一砂一极乐，一方一净土，<br> 一笑一尘缘，一念一清静
+
+
+aboutme: iHTCboy <br> 破得迷，了得知，方能学海无边；<br> 热爱移动开发，致力学习移动自动化<br><br> 一花一世界，一木一浮生，<br> 一草一天堂，一叶一如来，<br> 一砂一极乐，一方一净土，<br> 一笑一尘缘，一念一清静
