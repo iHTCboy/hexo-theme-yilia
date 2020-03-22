@@ -45,13 +45,13 @@ show_all_link: '显示全文'
 # 数学公式
 mathjax: true
 # 是否在新窗口打开链接
-open_in_new: false
+open_in_new: true
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 1
 # 打赏wording
-reward_wording: '如果喜欢，欢迎分享点赞，扫一扫鼓励，用心创造创新！'
+reward_wording: '如果喜欢，欢迎分享点赞，扫一扫鼓励，用心创作创新！'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
 alipay: /img/alipay.jpg
 # 微信二维码图片地址
@@ -130,6 +130,7 @@ smart_menu:
 
 friends:
   Apple Developer: https://developer.apple.com
+  Google Developers: https://developers.google.com/?hl=zh-cn
   Android Developers: https://developer.android.com
   objc.io: https://www.objc.io
   objc中国: https://www.objccn.io
@@ -140,6 +141,8 @@ friends:
   We ❤ Swift: https://www.weheartswift.com
   SwiftDoc.org: http://swiftdoc.org
   Swifter.tips: http://swifter.tips
+  Flutter: https://flutter.dev
+  React Native: https://reactnative.dev
   宇宙湾: https://yuzhouwan.com
   Climate2Weather: http://climate2weather.cc
 
