@@ -5,6 +5,7 @@ menu:
   归和档: /archives
   技和术: /categories/technology
   总和结: /categories/induction
+  # 笔和记: /NotesEveryDay/
   生和活: /categories/life
   诗和意: /categories/poetry
   更和多: /more
@@ -129,20 +130,26 @@ smart_menu:
   aboutme: '关于'
 
 friends:
+  GitHub: https://github.com
   Apple Developer: https://developer.apple.com
-  Google Developers: https://developers.google.com/?hl=zh-cn
   Android Developers: https://developer.android.com
-  objc.io: https://www.objc.io
-  objc中国: https://www.objccn.io
-  NSHipster: http://nshipster.com
-  NSHipster中文版: http://nshipster.cn
+  Google Developers: https://developers.google.com/?hl=zh-cn
   Ray Wenderlich: https://www.raywenderlich.com
+  Stack Overflow: https://stackoverflow.com
+  objc.io: https://www.objc.io
+  objc 中国: https://www.objccn.io
+  NSHipster: https://nshipster.com
+  NSHipster 中国: https://nshipster.cn
   Swift.org: https://swift.org
   We ❤ Swift: https://www.weheartswift.com
-  SwiftDoc.org: http://swiftdoc.org
-  Swifter.tips: http://swifter.tips
+  SwiftDoc.org: https://swiftdoc.org
+  Swifter.tips: https://swifter.tips
+  Go: https://golang.org
+  Dart: https://dart.dev
   Flutter: https://flutter.dev
   React Native: https://reactnative.dev
+  WEEX: https://weex.apache.org/zh/
+  微信开放文档: https://developers.weixin.qq.com/doc
   宇宙湾: https://yuzhouwan.com
   Climate2Weather: http://climate2weather.cc
 
