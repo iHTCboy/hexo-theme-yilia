@@ -1,5 +1,11 @@
 # Header
 
+title: iHTCboy's blog
+subtitle: 'Learn something of everything,  Learn everything of something.'
+description: ""
+author: iHTCboy
+keywords: "iOS,Swift,Object-C,Flutter,Android,Java,Developer,Apple,Python,Life"
+
 menu:
   首页: /
   归和档: /archives
@@ -14,7 +20,10 @@ menu:
 # SubNav
 subnav:
   github: "https://github.com/iHTCboy"
+  twitter: "https://twitter.com/iHTCboy"
   weibo: "https://weibo.com/iHTCapp"
+  zhihu: "https://www.zhihu.com/people/iHTCboy"
+  #bilibili: "https://space.bilibili.com/472002243"
   weixin: "https://mp.weixin.qq.com/s/XPG9j6Rb8kdhe9TbtM5zpQ"
   mail: "mailto:ihetiancong@gmail.com"
   rss: "https://iHTCboy.github.io/atom.xml"
@@ -76,7 +85,7 @@ google_analytics: 'UA-67136970-2'
 favicon: /img/favicon.png
 
 #你的头像url
-avatar: https://avatars2.githubusercontent.com/u/11418363?v=3&amp;s=460
+avatar: https://ihtcboy.com/img/favicon.png
 
 #是否开启分享
 share_jia: true
