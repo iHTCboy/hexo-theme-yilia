@@ -1,9 +1,10 @@
 <% var defaultBg = '#4d4d4d'; %>
 <nav id="mobile-nav">
   	<div class="overlay js-overlay" style="background: <%= theme.style && theme.style.header ? theme.style.header : defaultBg %>"></div>
-	<div class="btnctn js-mobile-btnctn">
-  		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
-	</div>
+	<div class="btnctn js-mobile-btnctn" style="height: 100px;">
+  		<div class="slider-trigger" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
+      <div  class="slider-trigger" style="margin-top: 45px; width: 42px; height: 42px; line-height: 45px; text-align: center;" q-on="click: openNight(e)"><i class="icon icon-eye"></i></div>
+  </div>
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
@@ -20,7 +21,7 @@
 				<% count++ %>
 			<% } %>
 			<% var ulWidth = count > 2 ? '82%' : '50%' %>
-			
+
 			<nav class="header-nav">
 				<div class="social">
 					<% for (var i in theme.subnav){ %>
@@ -37,7 +38,7 @@
 		        <%}%>
 				</ul>
 			</nav>
-		</header>				
+		</header>
 	</div>
 	<div class="mobile-mask" style="display:none" q-show="isShow"></div>
 </nav>
