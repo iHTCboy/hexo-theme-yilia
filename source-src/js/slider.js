@@ -15,6 +15,21 @@ let localTagKey = "yilia-tag";
 let localSearchKey = "yilia-search";
 const isMobile = Browser.versions.mobile && window.screen.width < 800;
 
+// 在页面加载完成后执行
+window.addEventListener('load', () => {
+  if (window.localStorage) {
+    // 夜间模式
+    let night =  window.localStorage.getItem('night');
+    try {
+      if (night && eval(night)) {
+        document.querySelector('body').classList.add('night');
+      } else {
+        document.querySelector('body').classList.add('light');
+      }
+    } catch (e) {}
+  }
+});
+
 function fixzero(str) {
   str = str + "";
   return str.length === 1 ? "0" + str : str;
@@ -75,6 +90,7 @@ function init() {
       openNight: (e, open) => {
         // 切换到夜间模式
         document.querySelector('.mid-col').classList.remove('hide');
+        document.querySelector('body').classList.toggle('light');
         let night = document.querySelector('body').classList.toggle('night');
         window.localStorage.setItem('night', night);
       },
@@ -189,6 +205,8 @@ function init() {
     try {
       if(night && eval(night)) {
         document.querySelector('body').classList.add('night');
+      } else {
+        document.querySelector('body').classList.add('light');
       }
     } catch (e){}
   }
